@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace noahRestaurant;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

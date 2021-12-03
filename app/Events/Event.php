@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace noahRestaurant\Events;
 
 abstract class Event
 {
