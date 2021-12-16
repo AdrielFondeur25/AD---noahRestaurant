@@ -11,8 +11,8 @@
 |
 */
 
-route::get('/', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
-route::resource('almacen/categoria','CategoriaController');
+Route::resource('almacen/categoria','CategoriaController');
