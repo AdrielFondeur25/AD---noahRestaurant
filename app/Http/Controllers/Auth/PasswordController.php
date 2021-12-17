@@ -1,8 +1,8 @@
 <?php
 
-namespace noahRestaurant\Http\Controllers\Auth;
+namespace sisVentas\Http\Controllers\Auth;
 
-use noahRestaurant\Http\Controllers\Controller;
+use sisVentas\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

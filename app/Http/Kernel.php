@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Http;
+namespace sisVentas\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \noahRestaurant\Http\Middleware\EncryptCookies::class,
+            \sisVentas\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \noahRestaurant\Http\Middleware\VerifyCsrfToken::class,
+            \sisVentas\Http\Middleware\VerifyCsrfToken::class,
         ],
 
         'api' => [
@@ -44,10 +44,10 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \noahRestaurant\Http\Middleware\Authenticate::class,
+        'auth' => \sisVentas\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
-        'guest' => \noahRestaurant\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \sisVentas\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }

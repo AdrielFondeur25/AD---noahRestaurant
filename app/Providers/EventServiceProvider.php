@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Providers;
+namespace sisVentas\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'noahRestaurant\Events\SomeEvent' => [
-            'noahRestaurant\Listeners\EventListener',
+        'sisVentas\Events\SomeEvent' => [
+            'sisVentas\Listeners\EventListener',
         ],
     ];
 

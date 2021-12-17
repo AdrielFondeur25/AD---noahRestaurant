@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Http\Middleware;
+namespace sisVentas\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

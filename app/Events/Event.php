@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Events;
+namespace sisVentas\Events;
 
 abstract class Event
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace noahRestaurant\Http\Requests;
+namespace sisVentas\Http\Requests;
 
-use noahRestaurant\Http\Requests\Request;
+use sisVentas\Http\Requests\Request;
 
 class CategoriaFormRequest extends Request
 {
@@ -26,9 +26,6 @@ class CategoriaFormRequest extends Request
         return [
             'nombre'=>'required|max:50',
             'descripcion'=>'max:256',
-            
-
-
         ];
     }
 }

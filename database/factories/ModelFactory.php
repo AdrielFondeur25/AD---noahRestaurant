@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(noahRestaurant\User::class, function (Faker\Generator $faker) {
+$factory->define(sisVentas\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->safeEmail,

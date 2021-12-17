@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Http\Middleware;
+namespace sisVentas\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

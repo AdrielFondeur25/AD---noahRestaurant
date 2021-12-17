@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Console\Commands;
+namespace sisVentas\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

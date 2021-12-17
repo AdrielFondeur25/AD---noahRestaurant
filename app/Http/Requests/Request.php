@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Http\Requests;
+namespace sisVentas\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

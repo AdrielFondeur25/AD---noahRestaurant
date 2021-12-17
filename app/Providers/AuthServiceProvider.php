@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Providers;
+namespace sisVentas\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'noahRestaurant\Model' => 'noahRestaurant\Policies\ModelPolicy',
+        'sisVentas\Model' => 'sisVentas\Policies\ModelPolicy',
     ];
 
     /**

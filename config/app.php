@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'timezone' => 'America/Santo_Domingo',
+    'timezone' => 'America/Lima',
 
     /*
     |--------------------------------------------------------------------------
@@ -151,10 +151,11 @@ return [
         /*
          * Application Service Providers...
          */
-        noahRestaurant\Providers\AppServiceProvider::class,
-        noahRestaurant\Providers\AuthServiceProvider::class,
-        noahRestaurant\Providers\EventServiceProvider::class,
-        noahRestaurant\Providers\RouteServiceProvider::class,
+        sisVentas\Providers\AppServiceProvider::class,
+        sisVentas\Providers\AuthServiceProvider::class,
+        sisVentas\Providers\EventServiceProvider::class,
+        sisVentas\Providers\RouteServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -201,6 +202,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 

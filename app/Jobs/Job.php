@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Jobs;
+namespace sisVentas\Jobs;
 
 use Illuminate\Bus\Queueable;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant\Exceptions;
+namespace sisVentas\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

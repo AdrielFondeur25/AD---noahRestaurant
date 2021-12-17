@@ -1,6 +1,6 @@
 <?php
 
-namespace noahRestaurant;
+namespace sisVentas;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,13 +12,15 @@ class Categoria extends Model
 
     public $timestamps=false;
 
+
     protected $fillable =[
-        'nombre' ,
-        'descripcion',
-        'condicion'
+    	'nombre',
+    	'descripcion',
+    	'condicion'
     ];
 
-    protected $guarded = [
+    protected $guarded =[
 
     ];
+
 }
